@@ -228,7 +228,7 @@ export default function Dashboard() {
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             {/* Your content */}
-            <div className="hour-logging">
+            {/* <div className="hour-logging">
               <h2>Log Hours</h2>
               <div className="logging-content">
                 <button>
@@ -239,7 +239,7 @@ export default function Dashboard() {
                   <ArrowDropDownIcon onClick={setHours({ hours } - 1)} />
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </main>
       </div>
