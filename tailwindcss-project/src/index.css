@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hour-logging{
+    width: 50%;
+    height: 500px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.logging-content{
+    background-color: azure;
+    padding-left: 20px;
+}
+
+h2{
+    font-size: x-large;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
