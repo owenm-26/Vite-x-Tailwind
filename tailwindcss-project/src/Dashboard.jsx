@@ -232,11 +232,11 @@ export default function Dashboard() {
               <h2>Log Hours</h2>
               <div className="logging-content">
                 <button>
-                  <ArrowDropUpIcon onClick={setHours({ hours } + 1)} />
+                  <ArrowDropUpIcon onClick={() => setHours({ hours } + 1)} />
                 </button>
                 <p>{hours}</p>
                 <button>
-                  <ArrowDropDownIcon onClick={setHours({ hours } - 1)} />
+                  <ArrowDropDownIcon onClick={() => setHours({ hours } - 1)} />
                 </button>
               </div>
             </div> */}

@@ -1,4 +1,3 @@
-import { useState } from "react";
 /*
   This example requires some changes to your config:
   
@@ -14,8 +13,6 @@ import { useState } from "react";
   ```
 */
 export default function Login() {
-  const [loggedIn, setLoggedIn] = useState(false);
-
   return (
     <>
       {/*
@@ -92,7 +89,7 @@ export default function Login() {
               <button
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                onSubmit={setLoggedIn(true)}
+                onSubmit={() => alert("hi")}
               >
                 Sign in
               </button>
