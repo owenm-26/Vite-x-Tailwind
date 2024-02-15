@@ -4,6 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import "./index.css";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import CheckIcon from "@mui/icons-material/Check";
 import { useState } from "react";
 
 const user = {
@@ -228,18 +229,22 @@ export default function Dashboard() {
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             {/* Your content */}
-            {/* <div className="hour-logging">
+            <div className="hour-logging">
               <h2>Log Hours</h2>
               <div className="logging-content">
                 <button>
-                  <ArrowDropUpIcon onClick={() => setHours({ hours } + 1)} />
+                  <ArrowDropUpIcon onClick={() => setHours(hours + 1)} />
                 </button>
                 <p>{hours}</p>
                 <button>
-                  <ArrowDropDownIcon onClick={() => setHours({ hours } - 1)} />
+                  <ArrowDropDownIcon onClick={() => setHours(hours - 1)} />
+                </button>
+                <br />
+                <button>
+                  <CheckIcon onClick={() => alert("Submitted")} />
                 </button>
               </div>
-            </div> */}
+            </div>
           </div>
         </main>
       </div>
